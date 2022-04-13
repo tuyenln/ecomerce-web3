@@ -1,6 +1,6 @@
 import course from "./CourseList.module.css";
 import Image from "next/image";
-const CourseList = () => {
+const CourseList = ({ post }) => {
     return (
         <section className={course.wrapper}>
             <div className={course.image}>

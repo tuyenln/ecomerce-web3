@@ -4,7 +4,7 @@ import { CourseList } from "@components/ui/common";
 export default function Home() {
   return (
       <section>
-        <CourseList />
+        <CourseList posts={post} />
       </section>
   )
 }
