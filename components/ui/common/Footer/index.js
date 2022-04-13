@@ -1,8 +1,11 @@
+import foot from "./Footer.module.css";
 const Footer = () => {
     return (
-        <>
-            <div>Footer</div>
-        </>
+        <footer>
+            <div className={foot.wrapper}>
+                Created by TuyenLN
+            </div>
+        </footer>
     );
 
 };

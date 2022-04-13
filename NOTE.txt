@@ -9,3 +9,5 @@ yarn dev // run project
 
 
 yarn add -D postcss-nesting 
+
+yarn add -D @tailwindcss/forms  @tailwindcss/typography @tailwindcss/aspect-ratio @tailwindcss/line-clamp

@@ -1,0 +1,27 @@
+.wrapper {
+    @apply grid grid-cols-6 gap-4  py-2 px-2 bg-gray-100;
+}
+
+.image {
+    @apply grid col-span-3 md:col-span-2;
+}
+
+.info {
+    @apply grid col-span-3  md:col-span-4;
+}
+
+.desc {
+    @apply line-clamp-2 overflow-hidden text-gray-500 text-sm;
+}
+
+.title {
+    @apply line-clamp-1 overflow-hidden font-medium;
+}
+
+.button {
+    @apply flex justify-start;
+
+    & > button {
+        @apply flex items-center text-white font-bold px-4 py-0.5 bg-orange-400 rounded-xl;
+    }
+}
