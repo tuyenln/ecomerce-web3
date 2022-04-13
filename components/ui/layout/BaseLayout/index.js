@@ -1,4 +1,4 @@
-import {Header, Footer} from '../../common';
+import {Header, Footer} from '@components/ui/common';
 const BaseLayout = ({children}) => {
     return (
         <>
@@ -7,7 +7,6 @@ const BaseLayout = ({children}) => {
             <Footer />
         </>
     );
-
 };
 
 export default BaseLayout;
