@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "next": "12.1.5",
+    "postcss-nesting": "^10.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0"
   },

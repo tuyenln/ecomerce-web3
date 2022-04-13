@@ -6,3 +6,6 @@ npx tailwindcss init -p // init file tailwind.config.js and postcss.config.js
 
 
 yarn dev // run project
+
+
+yarn add -D postcss-nesting 
