@@ -1,9 +1,10 @@
 import {Header, Footer} from '@components/ui/common';
+import style from "./BaseLayout.module.css";
 const BaseLayout = ({children}) => {
     return (
         <>
             <Header />
-            {children}
+            <div className={style.fit}>{children}</div>
             <Footer />
         </>
     );
