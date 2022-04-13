@@ -1,0 +1,8 @@
+yarn create next-app ecomerce-web3 // create project with yarn
+
+yarn add -D tailwindcss postcss autoprefixer // used yarn add tailwind css
+
+npx tailwindcss init -p // init file tailwind.config.js and postcss.config.js
+
+
+yarn dev // run project
